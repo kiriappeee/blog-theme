@@ -1,0 +1,21 @@
+{
+    "name": "adnan",
+    "description": "Custom theme for Adnan's website",
+    "version": "0.0.1",
+    "engines": {
+        "ghost": ">=2.0.0"
+    },
+    "author": {
+        "email": "adnan.issadeen+ghosttheme@live.com",
+        "name": "Adnan Issadeen",
+        "url": "https://adnanissadeen.com"
+    },
+    "config": {
+        "posts_per_page": 20
+    },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ]
+}

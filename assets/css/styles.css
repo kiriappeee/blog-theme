@@ -1,0 +1,21 @@
+.kg-width-wide {
+    width: inherit;
+}
+
+.kg-width-full {
+    width: inherit;
+}
+
+.kg-gallery-container {
+    display: inherit;
+    max-width: inherit;
+    width: inherit;
+}
+
+.kg-gallery-row {
+    justify-content: inherit;
+}
+
+.kg-gallery-image {
+    justify-content: inherit;
+}
