@@ -7,3 +7,15 @@
     <p class="post-time">Posted on {{date published_at format="MMMM DD YYYY"}} by {{primary_author.name}}</p>
 </article>
 {{/post}}
+
+<script>
+    function resizeIframes() {
+        var iframes = document.getElementsByTagName("iframe");
+        for (var i=0; i<iframes.length; i++){
+            const currentRatio = iframes[i].width/iframes[i].height;
+            iframes[i].width = "100%";
+            iframes[i].height = iframes[i].offsetWidth/currentRatio;
+        }
+    }
+    window.onload = resizeIframes;
+</script>

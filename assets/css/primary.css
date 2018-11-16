@@ -109,19 +109,19 @@ h1, h2 :first-child{
 }
 
 h1{
-	font-size:32px;
+	font-size: 220%;
 }
 
 h2{
-	font-size:28px;
+    font-size: 215%;
 }
 
 h3{
-	font-size:24px;
+	font-size: 210%;
 }
 
 h4, h5, h6{
-	font-size:20px;
+	font-size: 200%;
 }
 
 article{
@@ -132,6 +132,7 @@ article{
 
 article p{	
     margin-bottom:20px;
+    font-size: 105%;
     line-height: 220%;
 }
 
