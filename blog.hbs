@@ -1,0 +1,9 @@
+{{!< default}}
+
+<article>
+    {{#foreach posts}}
+    <h2><a href="/blog/{{slug}}/">{{title}}</a></h1>
+    <p>{{excerpt}}</p>
+    <p class="post-time">Posted on <a href="/blog/{{slug}}/">{{date published_at format="MMMM DD YYYY"}}</a></p>
+    {{/foreach}}
+</article>
