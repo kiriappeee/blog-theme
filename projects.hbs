@@ -1,0 +1,57 @@
+{{!< default}}
+
+<article>
+
+    {{#get "posts" limit=6 filter="tag:primary-active-project" order="updated_at"}}
+    {{#if posts}}
+    <div class="projectcollection">
+        <h2>Active Projects</h2>
+        {{#foreach posts}}
+        <h3><a href="/projects/{{slug}}/">{{title}}</a></h3>
+        <p>{{excerpt}}</p>
+        {{/foreach}}
+    </div>
+    {{/if}}
+    {{/get}}
+
+    {{#get "posts" limit=5 filter="tag:project-blog" order="updated_at"}}
+    {{#if posts}}
+    <div class="projectcollection">
+    <h2>Latest from the blog</h2>
+    {{#foreach posts}}
+        <h3><a href="/projects/blog/{{slug}}/">{{title}}</a></h3>
+        <p>{{excerpt}}</p>
+    {{/foreach}}
+    </div>
+    {{/if}}
+    {{/get}}
+
+    {{#get "posts" limit=5 filter="tag:project-log" order="updated_at"}}
+    {{#if posts}}
+    <div>
+    <h2>Latest Logs</h2>
+    {{#foreach posts}}
+        <h3><a href="/projects/log/{{slug}}/">{{title}}</a></h3>
+    {{/foreach}}
+    </div>
+    {{/if}}
+    {{/get}}
+
+    {{#get "posts" limit=6 filter="tag:primary-archived-project" order="updated_at"}}
+    {{#if posts}}
+    <div class="projectcollection">
+        <h2>Archived/Inactive Projects</h2>
+        {{#foreach posts}}
+        <h3><a href="/projects/{{slug}}/">{{title}}</a></h3>
+        <p>{{excerpt}}</p>
+        {{/foreach}}
+    </div>
+    {{/if}}
+    {{/get}}
+    <h2>Links to all the stuff</h2>
+    <ul>
+        <li><a href="/projects/all/">All projects</a></li>
+        <li><a href="/projects/blog/">All project related blog posts</a></li>
+        <li><a href="/projects/logs/">All Logs</a></li>
+    </ul>
+</article>

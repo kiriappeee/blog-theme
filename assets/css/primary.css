@@ -139,6 +139,10 @@ article img{
     max-width: 100%;
 }
 
+div.projectcollection {
+    border-bottom: 2px solid rgba(0, 48, 102, 0.548);
+    margin-bottom: 20px;
+}
 /* div.header{
     position:fixed;
     top: 0;
