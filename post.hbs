@@ -1,7 +1,16 @@
 {{!< default}}
 
 {{#post}}
+
 <article>
+    {{#has tag="project-log"}}
+    {{#contentFor "custom_head"}}
+        <link rel="stylesheet" href="{{asset 'css/prism.css'}}">
+    {{/contentFor}}
+    {{#contentFor "custom_body_end"}}
+        <script src="{{asset 'js/prism.js'}}"></script>
+    {{/contentFor}}
+    {{/has}}
     <h1>{{title}}</h1>
     {{content}}
     <p class="post-time">Posted on {{date published_at format="MMMM DD YYYY"}} by {{primary_author.name}}</p>
@@ -18,4 +27,5 @@
         }
     }
     window.onload = resizeIframes;
-</script>
+</script>  
+

@@ -2,7 +2,7 @@
 
 <article>
 
-    {{#get "posts" limit=6 filter="tag:primary-active-project" order="updated_at"}}
+    {{#get "posts" limit=6 filter="tag:primary-active-project" order="updated_at desc"}}
     {{#if posts}}
     <div class="projectcollection">
         <h2>Active Projects</h2>
@@ -14,7 +14,7 @@
     {{/if}}
     {{/get}}
 
-    {{#get "posts" limit=5 filter="tag:project-blog" order="updated_at"}}
+    {{#get "posts" limit=5 filter="tag:project-blog" order="updated_at desc"}}
     {{#if posts}}
     <div class="projectcollection">
     <h2>Latest from the blog</h2>
@@ -26,18 +26,20 @@
     {{/if}}
     {{/get}}
 
-    {{#get "posts" limit=5 filter="tag:project-log" order="updated_at"}}
+    {{#get "posts" limit=5 filter="tag:project-log" order="updated_at desc"}}
     {{#if posts}}
-    <div>
+    <div class="projectcollection">
     <h2>Latest Logs</h2>
+    <ul>
     {{#foreach posts}}
-        <h3><a href="/projects/log/{{slug}}/">{{title}}</a></h3>
+        <li><a href="/projects/logs/{{slug}}/">{{title}}</a></li>
     {{/foreach}}
+    </ul>
     </div>
     {{/if}}
     {{/get}}
 
-    {{#get "posts" limit=6 filter="tag:primary-archived-project" order="updated_at"}}
+    {{#get "posts" limit=6 filter="tag:primary-archived-project" order="updated_at desc"}}
     {{#if posts}}
     <div class="projectcollection">
         <h2>Archived/Inactive Projects</h2>
