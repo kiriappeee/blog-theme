@@ -113,15 +113,15 @@ h1{
 }
 
 h2{
-    font-size: 215%;
+    font-size: 210%;
 }
 
 h3{
-	font-size: 210%;
+	font-size: 200%;
 }
 
 h4, h5, h6{
-	font-size: 200%;
+	font-size: 190%;
 }
 
 article{
@@ -130,11 +130,12 @@ article{
     /*line-height: 210%;*/
 }
 
-article p{	
+article p,ul,li{	
     margin-bottom:20px;
     font-size: 105%;
     line-height: 220%;
 }
+
 
 article img{
     max-width: 100%;
@@ -143,6 +144,13 @@ article img{
 div.projectcollection {
     border-bottom: 2px solid rgba(0, 48, 102, 0.548);
     margin-bottom: 20px;
+}
+
+article blockquote {
+    padding-left: 10px;
+    margin-left: 10px;
+    font-style: italic;
+    border-left: 4px solid #339ED4;
 }
 /* div.header{
     position:fixed;
