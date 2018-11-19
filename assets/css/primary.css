@@ -29,8 +29,7 @@ div.content{
     background-color:white;
     color:#3B3B3B;
     width: 100%;
-    padding: 2%;
-    margin: 0;
+    padding: 0;
     font-size: 120%;
 }
 
@@ -126,14 +125,31 @@ h4, h5, h6{
 
 article{
     color:#3B3B3B;
-    font-size: 65%;	
+    font-size: 65%;
+    padding-left: 15px;
+    padding-right: 15px;
     /*line-height: 210%;*/
 }
 
-article p,ul,li{	
+article p, li{
     margin-bottom:20px;
     font-size: 105%;
     line-height: 220%;
+}
+
+#coverimage {
+    background-position: 50% 50%;
+    height: 500px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+article li {
+    margin-bottom: 0;
+}
+article li li{
+    font-size: 1em;
 }
 
 
