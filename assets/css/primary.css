@@ -154,9 +154,15 @@ article li li{
     font-size: 1em;
 }
 
+article figcaption {
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+}
 
 article img{
     max-width: 100%;
+    height: auto;
 }
 
 div.projectcollection {
