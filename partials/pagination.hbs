@@ -1,0 +1,13 @@
+<div class="row justify-content-center">
+  <div class="col-xs-12">
+    <nav class="pagination">
+        {{#if next}}
+            <a class="older-posts" href="{{page_url next}}">&larr; Older Posts</a>
+        {{/if}}
+        <span class="page-number">Page {{page}} of {{pages}}</span>
+        {{#if prev}}
+            <a class="newer-posts" href="{{page_url prev}}">Newer Posts &rarr;</a>
+        {{/if}}
+    </nav>
+  </div>
+</div>

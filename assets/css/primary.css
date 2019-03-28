@@ -66,6 +66,19 @@ nav {
     }
 }
 
+nav.pagination {
+    font-size: 65%;
+    
+}
+
+span.page-number {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* a.older-posts {
+    margin-left: 2%;
+} */
+
 #header-col{
     background-color: whitesmoke;
     border-bottom:2px solid #339ED4;
