@@ -64,10 +64,10 @@ nav {
 
 @media(max-width: 960px) {
     nav {
-        font-size: 75%;
+        font-size: 85%;
     }
     nav-link {
-        padding: 0.5em
+        padding: 0.5rem
     }
 }
 
