@@ -1,69 +1,66 @@
-html{
-    font-size:10px;
+html {
+    font-size: 10px;
 }
+
 body {
-    background-color:#002340;
+    background-color: #002340;
     color: white;
-    text-align:center;
-    font-family: "pt sans narrow";
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 2.8em;
-    
 }
 
-p{
-    margin:0;
-    line-height:1.5em;
+p {
+    margin: 0;
+    line-height: 1.5em;
 }
 
-#main-text{
-    padding-top:0.7em;
-    font-size:150%;
+#main-text {
+    padding-top: 0.7em;
+    font-size: 150%;
     margin: 0 20px 40px 20px;
-    font-weight:normal;
+    font-weight: normal;
 }
 
-span.attention{
-    color:#A33333;
+span.attention {
+    color: #A33333;
 }
 
-#secondary-text{
-    font-size:100%;
-    margin-bottom:25px;
-
+#secondary-text {
+    font-size: 100%;
+    margin-bottom: 25px;
 }
 
-span.secondattention{
+span.secondattention {
     /*color:#3E7AAD;*/
-    font-style:italic;
-
+    font-style: italic;
 }
 
-p.tertiary-text{
-    font-size:90%;
-    margin-bottom:15px;
+p.tertiary-text {
+    font-size: 90%;
+    margin-bottom: 15px;
 }
 
-ul.links{    
-    list-style:none;
+ul.links {
+    list-style: none;
     font-size: 27px;
-    margin-top:50px;    
+    margin-top: 50px;
 }
 
-ul.links li{
-    display:inline;
-    margin-right:50px;
+ul.links li {
+    display: inline;
+    margin-right: 50px;
 }
 
-
-a{
-	color:#39AECF;
-	text-decoration:none;
+a {
+    color: #39AECF;
+    text-decoration: none;
 }
 
-a:hover{	
-	text-decoration:underline;
+a:hover {
+    text-decoration: underline;
 }
 
-a:visited{
-	color:#057D9F;	
+a:visited {
+    color: #057D9F;
 }
